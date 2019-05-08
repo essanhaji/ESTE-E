@@ -1,0 +1,71 @@
+/*** COVER ****/
+
+#header {
+  background-size: cover;
+  /* background-image: url(images/header-bg.jpg); */
+  background-image: url(./header-bg.jpg);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+}
+#header .headetText {
+  font-size: 3em;
+  margin-bottom: 15px;
+  line-height: 1em;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.headetText p {
+  text-align: center;
+  padding-top: 20%;
+}
+.secondText p {
+  text-align: center;
+  color: white;
+}
+.secondText .btn-outline {
+  margin: auto;
+  cursor: pointer;
+  border: 1px solid gray;
+  width: 150px;
+  padding: 10px;
+}
+.secondText .btn-outline:hover {
+  background-color: white;
+  color: black;
+}
+
+/***services**/
+.services .line {
+  margin: auto;
+  width: 40%;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.fa-file-pdf,
+.fa-question-circle,
+.fa-comments {
+  font-size: 4em;
+  margin: 15px;
+}
+
+/**connect**/
+.social {
+  font-size: 5em;
+  text-align: center;
+}
+.social .fab {
+  margin: 30px;
+}
+.social .fab:hover {
+  color: black;
+}
+.fa-facebook-square {
+  color: blue;
+}
+.fa-google-plus-g {
+  color: red;
+}
+.fa-instagram {
+  color: gray;
+}

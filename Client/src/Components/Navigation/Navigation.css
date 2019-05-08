@@ -1,0 +1,18 @@
+/****NAVBAR***/
+nav .nav-item {
+  color: black;
+}
+nav a:hover {
+  border-bottom: 1px solid black;
+}
+nav .active {
+  border-bottom: 1px solid black;
+}
+
+nav .btn-outline {
+  background-color: transparent;
+  border: 1px solid gray;
+  color: black;
+  padding: 0;
+  padding: 5px 15px 5px 15px;
+}

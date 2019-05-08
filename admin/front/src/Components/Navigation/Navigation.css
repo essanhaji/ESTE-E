@@ -1,0 +1,97 @@
+/********************------------ ADmin ----------******************/
+/*** Page DASHBOARD ***/
+.bdAdmin {
+    background-color: rgb(244, 245, 247);
+}
+#Main a{
+    color:black
+}
+#Main .active{
+    color: white
+}
+#footer{
+    text-align: center
+}
+#footer p{
+    padding: 10px 0 10px 0;
+}
+.bdAdmin .bd{
+    background-color: white;
+}
+.Dashboard-home{
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: white;
+}
+.cards .One-card  {
+    border: 1px solid rgba(58, 63, 75, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    width: 33%;
+    flex-wrap: wrap;
+}
+.cards .One-card .nbr{
+    margin-bottom: 0px;
+    color: #2ED8B4
+}
+.cards .One-card .logo{
+    float: right;
+    color: white;
+    padding: 15px;
+    font-size: 1rem;
+    margin-top: 25px;
+    border-radius: 5px;
+
+}
+.cards .One-card .date{
+    color:gray;
+    margin-top: 5px;
+}
+/*** Page Profs ***/
+.btn-accept p button,.btn-refuse p button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+/** Page reset **/
+.reset{
+    background-color:white;
+    padding: 120px;
+}
+.reset p{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+.reset button{
+    margin-top: 10%;
+    margin-left: 23%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+
+/***Edit account * **/
+.editAccount-Admin{
+    background-color: white;
+}
+.editAccount-Admin .title{
+    text-align: center;
+}
+
+
+/** modules and filiers page **/
+.filiers .btn-accept,.filiers .btn-refuse{
+    width: 40px
+}
+.filiers .inputs{
+    border-right: 1px solid rgba(102, 105, 110, 0.4) ;
+}
+.table-filiers{
+    clear:both
+}
